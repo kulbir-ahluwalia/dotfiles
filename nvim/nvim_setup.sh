@@ -8,6 +8,10 @@ sudo apt-get update
 # Install python dependencies
 echo "Updating software sources"
 sudo apt-get install -y python-dev python-pip python3-dev python3-pip
+sudo -H python2 -m pip install setuptools
+sudo -H python3 -m pip install setuptools
+sudo -H python3 -m pip install wheel
+sudo -H python3 -m pip install wheel
 # Install neovim
 echo "Installing neovim"
 sudo apt-get install -y neovim

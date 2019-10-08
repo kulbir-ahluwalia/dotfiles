@@ -4,10 +4,10 @@ ZSH_DISABLE_COMPFIX="true"
 
 # nnn
 export TERM="xterm-256color" # For terminal colors with tmux
-export NNN_OPS_PROG=1 # show copy, move progress on Linux
-export NNN_OPENER=xdg-open # custom file opener
-export NNN_CONTEXT_COLORS='1234' # context specific colors
-export NNN_RESTRICT_0B=1 # don't open zero-byte files
+#export NNN_OPS_PROG=1 # show copy, move progress on Linux
+#export NNN_OPENER=xdg-open # custom file opener
+#export NNN_CONTEXT_COLORS='1234' # context specific colors
+#export NNN_RESTRICT_0B=1 # don't open zero-byte files
 
 
 # If you come from bash you might have to change your $PATH.
